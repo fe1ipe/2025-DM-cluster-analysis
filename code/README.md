@@ -1,1 +1,20 @@
-En esta carpeta se alojan los códigos utilizados.
+Esta carpeta contiene los siguientes scripts de R que se usaron a lo largo del análisis.
+- **`0 Transformación de datos.R`** sirve para obtener los siguientes archivos a partir del archivo `Base-de-Datos-F1-F2-EX-CIDI-metales.sav`:
+-- `Base-de-Datos-F1-F2-EX-CIDI-metales.xlsx`
+-- `Libro-de-Variables-F1-F2-EX-CIDI-metales.xlsx`
+- **`1 Preparación de datos.R`** sirve para crear los archivos `Datos_0.RData` y `Datos_1.RData`, siendo este último el trabajado en los análisis de conglomerados.
+- **`2 Análisis de datos.R`** sirve para realizar los análisis de conglomerados, incluyendo los realizados con los datos permutados. Con este script se generan los siguientes archivos:
+-- `Datos_2p.RData`
+-- `perm.clust1_avg.sil.RData`
+-- `perm.clust2_avg.sil.RData`
+-- `clustID.RData`
+-- `Figuras - agrupamiento.pdf`
+- **`2.1 Figure 1.R`** sirve para crear la figura 1 del artículo contenida en el archivo `Figure 1.png`.
+- **`2.2 Figures S1 and S2.R`** sirve para crear las figuras S1 y S2 del artículo contenidas en los archivos `Figure S1.png` y `Figure S2.png`.
+- **`3 Análisis de grupos.R`** sirve para crear los siguientes archivos:
+-- `Table S3 (in Spanish).csv`
+-- `Figuras - análisis de grupos.pdf`
+- **`4 Análisis posterior.R` sirve para crear los siguientes archivos:
+-- `PostTabla.csv`
+-- `Figuras adicionales.pdf`
+- 
