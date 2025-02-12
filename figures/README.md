@@ -1,1 +1,15 @@
-En esta carpeta se alojan diferentes figuras generadas en el análisis.
+Esta carpeta contiene los siguientes archivos generados a lo largo del análisis.
+- **`Figuras - agrupamiento.pdf`** contiene las siguientes figuras:
+  - Dendrogramas para cuatro métodos diferentes de enlace jerárquico.
+  - Figura S1 del artículo.
+  - Figura 1a y 1b del artículo.
+  - Figura 1c y 1d del artículo.
+  - Figura S2 del artículo.
+- **`Figuras - análisis de grupos`** contiene diferentes figuras diseñadas para explorar relaciones entre las variables estudiadas y los grupos (clusters) encontrados.
+- **`Figuras adicionales.pdf`** contiene figuras adicionales que se diseñaron para continuar la exploración de asociaciones entre:
+  - Exposición solar y región.
+  - Grupo etario y grupo (cluster).
+  - GPAQ y grupo etario.
+- **`Figure 1.png`** es la figura 1 del artículo.
+- **`Figure S1.png`** es la figura 1 del material suplementario del artículo.
+- **`Figure S2.png`** es la figura 2 del material suplementario del artículo.
