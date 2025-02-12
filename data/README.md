@@ -9,4 +9,6 @@ Esta carpeta contiene los siguientes archivos de datos que se usan a lo largo de
 8. **`perm.clust2_avg.sil.RData`** guarda un objeto de clase `list` llamado `perm.clust2_avg.sil` y que guarda 999 vectores de largo 22, siendo cada elemento el índice de Silhouette promedio para un número de clusters determinado según la secuencia `c(2:10, seq(10,K2,3)[-1])` con `K2 = 50`, cuando se usa k-medoids como algoritmo de agrupamiento. Este archivo se genera con el script `2 Análisis de datos.R`.
 9. **`clustID.RData`** guarda un objeto de clase `integer` llamado `clustID` y que guarda la pertenencia de cada una de las 652 observaciones a cada uno de los 7 clusters identificados. Este archivo se genera con el script `2 Análisis de datos.R`.
 
-⚠ Por motivos se espacio, se excluyó el archivo **`DistMatp.RData`** que contiene un objeto de clase `list` llamado `DistMatp` y que guarda 999 matrices de distancia, cada una calculada para cada una de las 999 permutaciones del conjunto de datos. Este archivo se genera con el script `2 Análisis de datos.R`.
+⚠ Por motivos se espacio, se excluyeron los siguientes archivos:
+- `Base-de-Datos-F1-F2-EX-CIDI-metales.sav`, el cual está guardado dentro del archivo `Base-de-Datos-F1-F2-EX-CIDI-metales.zip`.
+- **`DistMatp.RData`** que contiene un objeto de clase `list` llamado `DistMatp` y que guarda 999 matrices de distancia, cada una calculada para cada una de las 999 permutaciones del conjunto de datos. Este archivo se genera con el script `2 Análisis de datos.R`.
