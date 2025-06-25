@@ -69,12 +69,10 @@ K2 = 50
 clust2_avg.sil <- avg.sil.fun2(distmat = DistMat, kseq = 2:K2)
 #
 # FIGURE 1 ####
-png(
-  filename = "../figures/Figure 1.png",
+svg(
+  filename = "../figures/Figure 1.svg",
   width = 6.43,
-  height = 5.38,
-  units = "in",
-  res = 72*4)
+  height = 5.38)
 par(mfrow = c(2,2),
     oma = c(0,0,0,0),
     mar = c(5,5,2,1),
