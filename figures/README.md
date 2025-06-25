@@ -10,6 +10,6 @@ Esta carpeta contiene los siguientes archivos generados a lo largo del análisis
   - Exposición solar y región.
   - Grupo etario y grupo (cluster).
   - GPAQ y grupo etario.
-- **`Figure 1.png`** es la figura 1 del artículo.
+- **`Figure 1.svg`** es la figura 1 del artículo.
 - **`Figure S1.png`** es la figura 1 del material suplementario del artículo.
 - **`Figure S2.png`** es la figura 2 del material suplementario del artículo.
